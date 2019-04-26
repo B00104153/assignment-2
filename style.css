@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+
+img { max-width: 100%;}
+
+body {
+	background-color: #15192c
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0% 0;}
+
+header img {
+	display: block;
+	margin: 0% auto;
+	widows: 600%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3A78D9;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: deepskyblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.lineup {
+	padding: 30px;
+	margin-left: 200px;
+	resize: 200px;
+}
+
+div.artists{
+	margin: 20px;
+	border: 30px #f0f0f0;
+	float: left;
+	width: 300px;
+	text-align: right;
+	color: white;
+}  
+
+div.news {
+	text-align: center;
+	color: white;
+	padding: 10px;
+	text-size: 7px;
+	border-width: thin
+}
+div.info {
+	margin-left: 200px;
+	color: white;
+}
+
+div.age {
+	color: white;
+	text-align: centre;
+	margin: 30px;
+	margin-right: 30px;
+}
+
+div.id {
+	color: white;
+	text-align: center;
+	margin: 30px;
+}
+
+div.moreinfo {
+	color: white;
+	margin-left: 450px;
+}
+
+div.chart {
+	margin: 200px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3A78D9;
+   color: white;
+   text-align: center;
+}
+
+.mySlides {display:none;}
